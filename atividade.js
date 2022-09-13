@@ -30,7 +30,6 @@ function executaMenu() {
 
     if (resultado == "1") {
         criarLivro()
-
     }
 
     if (resultado == "2") {
