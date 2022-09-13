@@ -201,35 +201,3 @@ function filtrarCategoria() {
 }
 
 executaMenu()
-
-
-
-
-
-// function cadastrarVeiculo() {
-//     let placa = prompt('Digite a placa do veiculo')
-
-//     let isNovaPlaca = true
-
-//     veiculos.forEach(veiculo => {
-//         if (veiculo.placa == placa) {
-//             isNovaPlaca = false
-//         }
-//     })
-
-//     if (isNovaPlaca) {
-//         const veiculo = {
-//             placa: placa,
-//             modelo: prompt('Digite o modelo do veiculo'),
-//             marca: prompt('Digite a marca do veiculo'),
-//             ano: prompt('Digite o ano do veiculo'),
-//         }
-
-//         veiculos.push(veiculo)
-//         console.log(veiculos)
-//     } else {
-//         alert('Placa já cadastrada!')
-//     }
-// }
-
-
