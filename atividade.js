@@ -74,7 +74,7 @@ function criarLivro() {
 
         baseDeLivros.push(livro)
     }
-
+    
 }
 
 function pesquisaLivro() {
@@ -137,8 +137,6 @@ function pesquisaLivro() {
         }
     }
 
-
-
 }
 
 function excluirLivro() {
@@ -173,14 +171,12 @@ function alteraLivro() {
 
             baseDeLivros[index] = newLivro
             isThis = false
-
         }
     })
 
     if (isThis) {
         alert('Código não existe!')
     }
-
 }
 
 function filtrarCategoria() {
